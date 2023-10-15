@@ -3,14 +3,23 @@ h1{width: 1000px;
     padding-top: 32px;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
-    background-color: navy;
+    background-color: rgb(23, 122, 155);
     color: white;
     border: 10px;
+    text-align: center;
   }
   h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
     color: red;
+    text-align: center;
+  }
+  h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: red;
+    text-decoration: underline;
+    text-align: center;
   }
   p{
     margin: 20px;
@@ -20,31 +29,13 @@ h1{width: 1000px;
   }
   
   body{
-    background-color: white;
-    color: black;
+    background-color:  black;
+    color: purple;
   
   }
     
-    .styled {
-      border: 0;
-      line-height: 2.5;
-      padding: 0 20px;
-      font-size: 1rem;
-      text-align: center;
-      color: #fff;
-      text-shadow: 1px 1px 1px #000;
-      border-radius: 10px;
-      background-color: rgba(220, 0, 0, 1);
-      background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
-      box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
-  }
-  
-  .styled:hover {
-    background-color: rgba(255, 0, 0, 1);
-  }
-  
-  .styled:active {
-    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+  footer { margin-inline-start: 200px;
+    text-align: center;
   }
   body {
     width:1000px;
@@ -58,3 +49,15 @@ h1{width: 1000px;
     line-height: 4px;
   }
   
+  
+   nav{ height: 6000px;
+width: 200px;
+float: left;
+padding: 5px;
+line-height: 30px;
+   }
+   img{
+    margin-right: 200px;
+    height: 500px;
+    width: 400px;
+   }
